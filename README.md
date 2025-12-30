@@ -27,3 +27,4 @@ admin melihat detail pesanan pelanggan
 pada halaman laporan, admin dapat melihat seluruh laporan penjualan dan bisa juga berdasarkan tanggal, serta dapat mencetak laporan
 <img width="1312" height="627" alt="image" src="https://github.com/user-attachments/assets/9bb4ae06-f441-40d1-8e97-41981cab5e26" />
 halaman cetak laporan
+sekian penjelasan saya, saya Muhammad Syahir Al Barkah Kelas 07TPLP019 mengucapkan terima kasih # Tugas-Pemrograman-2
