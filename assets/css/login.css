@@ -1,0 +1,81 @@
+/* ===== Umum ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6f4e37, #b08968);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* ===== Container ===== */
+.login-container {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  color: #4e342e;
+  margin-bottom: 25px;
+}
+
+/* ===== Input ===== */
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4e342e;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #b08968;
+}
+
+/* ===== Tombol Utama ===== */
+.btn-main {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #b08968;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-main:hover {
+  background: #8d6e63;
+}
+
+/* ===== Kembali ke Beranda ===== */
+.btn-back {
+  background: #a1887f;
+}
+
+.btn-back:hover {
+  background: #795548;
+}
