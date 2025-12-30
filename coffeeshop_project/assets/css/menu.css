@@ -1,0 +1,159 @@
+/* ======= RESET ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ======= BODY ======= */
+body {
+  background-color: #faf6f1;
+  color: #3e2723;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* ======= CONTAINER ======= */
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ======= HEADER ======= */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  color: #5d4037;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+header p {
+  text-align: right;
+}
+
+.btn-add,
+.btn-back {
+  background-color: #b6895b;
+  color: white;
+  padding: 8px 14px;
+  margin-left: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-back {
+  background-color: #8e5a32;
+}
+
+.btn-add:hover {
+  background-color: #8e5a32;
+}
+
+.btn-back:hover {
+  background-color: #6d3b1e;
+}
+
+/* ======= TABLE ======= */
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu-table thead {
+  background-color: #5d4037;
+  color: #fff;
+}
+
+.menu-table th, .menu-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.menu-table th {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.menu-table tbody tr {
+  border-bottom: 1px solid #eee;
+  transition: background 0.3s;
+}
+
+.menu-table tbody tr:hover {
+  background-color: #f7ede2;
+}
+
+/* ======= GAMBAR ======= */
+.menu-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ======= BUTTON AKSI ======= */
+.btn-edit, .btn-delete {
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 3px;
+  transition: 0.3s;
+}
+
+.btn-edit {
+  background-color: #b6895b;
+  color: #fff;
+}
+
+.btn-edit:hover {
+  background-color: #8e5a32;
+}
+
+.btn-delete {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: #c9302c;
+}
+
+/* ======= RESPONSIVE ======= */
+@media (max-width: 768px) {
+  .menu-table th, .menu-table td {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .menu-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header p {
+    margin-top: 10px;
+  }
+}
